@@ -19,6 +19,10 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
   <repositories>
+          <repository>
+              <id>local</id>
+              <url>file://${user.home}/.m2/repository</url>
+        </repository>
       <repository>
           <id>jitpack.io</id>
           <url>https://jitpack.io</url>
@@ -41,7 +45,7 @@
     <dependency>
         <groupId>com.github.fabiorodrigues0</groupId>
         <artifactId>bricks</artifactId>
-        <version>0.4.2.1</version>
+        <version>0.4.4</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
