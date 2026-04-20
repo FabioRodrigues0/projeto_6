@@ -1,5 +1,7 @@
 package com.mycompany.app;
 
+import com.mycompany.app.scenes.SceneCalc;
+import com.mycompany.app.scenes.SceneCalcCientifica;
 import fabiorodrigues.bricks.components.Button;
 import fabiorodrigues.bricks.components.Column;
 import fabiorodrigues.bricks.components.Row;
@@ -11,9 +13,13 @@ import fabiorodrigues.bricks.core.State;
 import fabiorodrigues.bricks.style.BricksTheme;
 import fabiorodrigues.bricks.style.Modifier;
 
+// prompt: passa pelo projeto e adiciona o javadoc
+/**
+ * Ponto de entrada da aplicação de calculadora.
+ * Gere a troca entre a cena normal ({@link SceneCalc}) e a científica ({@link SceneCalcCientifica}).
+ */
 public class App extends BricksApplication {
 
-    // App.java
     private final State<String> display = state("");
     private final State<String> prevDisplay = state("");
     private final State<String> operator = state("");
@@ -34,6 +40,12 @@ public class App extends BricksApplication {
         setSize(390, 330);
     }
 
+    /**
+     * Constrói a interface raiz com o cabeçalho e a cena activa.
+     * O botão de alternância redimensiona a janela conforme o modo seleccionado.
+     *
+     * @return componente raiz da aplicação
+     */
     @Override
     public Component root() {
         return new Column()
@@ -62,6 +74,11 @@ public class App extends BricksApplication {
             );
     }
 
+    /**
+     * Inicia a aplicação JavaFX.
+     *
+     * @param args argumentos da linha de comandos
+     */
     public static void main(String[] args) {
         launch(args);
     }

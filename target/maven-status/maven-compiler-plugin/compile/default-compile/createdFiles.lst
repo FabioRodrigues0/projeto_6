@@ -1,5 +1,5 @@
-com/mycompany/app/SceneCalc.class
-com/mycompany/app/CalculadoraCientifica.class
-com/mycompany/app/Calculadora.class
+com/mycompany/app/scenes/SceneCalc.class
+com/mycompany/app/scenes/SceneCalcCientifica.class
+com/mycompany/app/models/Calculadora.class
 com/mycompany/app/App.class
-com/mycompany/app/SceneCalcCientifica.class
+com/mycompany/app/models/CalculadoraCientifica.class

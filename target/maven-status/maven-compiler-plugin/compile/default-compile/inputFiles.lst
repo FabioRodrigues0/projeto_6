@@ -1,5 +1,5 @@
 /var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/App.java
-/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/Calculadora.java
-/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/CalculadoraCientifica.java
-/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/SceneCalc.java
-/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/SceneCalcCientifica.java
+/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/models/Calculadora.java
+/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/models/CalculadoraCientifica.java
+/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/scenes/SceneCalc.java
+/var/home/fabio/Documents/projeto_6/src/main/java/com/mycompany/app/scenes/SceneCalcCientifica.java
